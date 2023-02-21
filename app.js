@@ -1,4 +1,5 @@
 const array = ["b", "b", "c", "a", "d", "a"];
-const ob = array.indexOf("a");
+const ob = array.includes("c", 3);
 console.log(ob);
-// array.indexOf return first occurence of element in array, if no element is found it will return -1
+//search for an element in array if found returns true else false.
+// param: i. element ii. index -> optional
